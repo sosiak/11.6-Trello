@@ -13,13 +13,16 @@
 	font-weight: bold;
 }
 .column {
-	width: 30%;
+	width: 20%;
 	float: left;
 	text-align: center;
 	background: #c0392b;
-	border: solid #d35400 2px;
+	margin: 10px 3px;
 	color: white;
 	font-family: Arial;
+	height: 300px;
+	overflow: auto;
+	border-radius: 15px;
 }
 .btn-delete {
 	float: right;
