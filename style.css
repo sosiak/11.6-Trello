@@ -17,12 +17,13 @@
 	float: left;
 	text-align: center;
 	background: #c0392b;
-	margin: 10px 3px;
+	border: solid white 5px;
 	color: white;
 	font-family: Arial;
 	height: 300px;
 	overflow: auto;
 	border-radius: 15px;
+	margin-top: 30px;
 }
 .btn-delete {
 	float: right;
@@ -46,4 +47,30 @@
 	color: white;
 	font-family: Arial;
 	background: #2980b9;
+}
+.column-container {
+	padding: 0 30px;
+}
+@media (max-width: 1100px) {
+	.add-card {
+		font-size: 14px;
+	}
+	.btn-delete {
+		font-size: 14px;
+	}
+}
+@media (max-width:992px) {
+	.column {
+		width: 30%;
+	}
+}
+@media (max-width: 768px) {
+	.column {
+		width: 40%;
+	}
+} 
+@media (max-width: 600px) {
+	.column {
+		width: 90%;
+	}
 }
